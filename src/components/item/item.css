@@ -1,0 +1,22 @@
+.item_container{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-around;
+  margin: 0;
+}
+.items{
+  flex-basis: 30%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border:1px solid rgba(7,17,27,.2);
+  border-radius: 2px;
+}
+img{
+  width: 100%;
+}
